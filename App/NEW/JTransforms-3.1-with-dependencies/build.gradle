@@ -1,0 +1,5 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('JTransforms-3.1-with-dependencies.jar'))
+dependencies {
+    implementation files('/Users/nishaanthkanna/Downloads/JTransforms-3.1-with-dependencies.jar')
+}
